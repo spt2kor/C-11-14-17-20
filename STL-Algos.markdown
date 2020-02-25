@@ -70,13 +70,14 @@ CppCon 2018 SPEAKER: Jonathan Boccara
 		linear complexity in N on average.
 --------------------------------------------------------
 ## Permutation:	
-	**ROtate** :
+
+**ROtate** :
 	
-	__shuffle__:
+__shuffle__:
 	
-	###next_permutation:
+###next_permutation:
 	
-	**prev_permutation**:
+**prev_permutation**:
 
 
 
