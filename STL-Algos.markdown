@@ -88,10 +88,12 @@ CppCon 2018 SPEAKER: Jonathan Boccara
 **shuffle**:
 	template <class RandomAccessIterator, class URNG>
   	void shuffle (RandomAccessIterator first, RandomAccessIterator last, URNG&& g);
+	
 **next_permutation**:
 	template <class BidirectionalIterator, class Compare>
   	bool next_permutation (BidirectionalIterator first,
                          BidirectionalIterator last, Compare comp);
+			 
 **prev_permutation**:
 	template <class BidirectionalIterator, class Compare>
   	bool prev_permutation (BidirectionalIterator first,
