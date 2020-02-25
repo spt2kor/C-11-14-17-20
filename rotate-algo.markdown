@@ -36,12 +36,13 @@ https://github.com/apple/swift-evolution/blob/master/proposals/0078-rotate-algor
 * METHOD 3 (A Juggling Algorithm): 	Time complexity : O(n)  : Auxiliary Space : O(1) 	: using GCD - IMP
 
 [Block swap algorithm for array rotation](https://www.geeksforgeeks.org/block-swap-algorithm-for-array-rotation/)
-	Initialize A = arr[0..d-1] and B = arr[d..n-1]
-	1) Do following until size of A is equal to size of B
-	  a)  If A is shorter, divide B into Bl and Br such that Br is of same 
+* Time Complexity: O(n)
+*	Initialize A = arr[0..d-1] and B = arr[d..n-1]
+*	1) Do following until size of A is equal to size of B
+**	  a)  If A is shorter, divide B into Bl and Br such that Br is of same 
 	       length as A. Swap A and Br to change ABlBr into BrBlA. Now A
 	       is at its final place, so recur on pieces of B.  
-	   b)  If A is longer, divide A into Al and Ar such that Al is of same 
+**	   b)  If A is longer, divide A into Al and Ar such that Al is of same 
 	       length as B Swap Al and B to change AlArB into BArAl. Now B
 	       is at its final place, so recur on pieces of A.
-	2)  Finally when A and B are of equal size, block swap them.
+*	2)  Finally when A and B are of equal size, block swap them.
