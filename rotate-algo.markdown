@@ -1,7 +1,7 @@
 # Why is std::rotate so fast?
 [why-is-stdrotate-so-fast](https://stackoverflow.com/questions/21160875/why-is-stdrotate-so-fast)
 
-,,,
+```
 template <class ForwardIterator>
 void rotate (ForwardIterator first, ForwardIterator middle, ForwardIterator last)
 {
@@ -17,8 +17,7 @@ void rotate (ForwardIterator first, ForwardIterator middle, ForwardIterator last
 		middle= next;
   }
 }
-,,,
-
+```
 
 
 
