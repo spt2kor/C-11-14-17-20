@@ -99,22 +99,46 @@ CppCon 2018 SPEAKER: Jonathan Boccara
   	bool prev_permutation (BidirectionalIterator first,
                          BidirectionalIterator last, Compare comp);
 
+**reverse**:
+	template< class BidirIt >
+	constexpr void reverse( BidirIt first, BidirIt last );
 
+----------------------------------------
+## is_*
 
+**is_sorted**
+	template< class ForwardIt >
+	bool is_sorted( ForwardIt first, ForwardIt last );
 
+**is_partitioned**
+	template< class InputIt, class UnaryPredicate >
+	bool is_partitioned( InputIt first, InputIt last, UnaryPredicate p );
 
+**is_heap**
+	template< class RandomIt >
+	bool is_heap( RandomIt first, RandomIt last );
 
+## stale_**
+**stable_partition**
+	template< class BidirIt, class UnaryPredicate >
+	BidirIt stable_partition( BidirIt first, BidirIt last, UnaryPredicate p );
+	
+**stable_sort**
+	template< class RandomIt >
+	void stable_sort( RandomIt first, RandomIt last );
 
+## is_*_until
 
+**is_sorted_until**
+	template< class ForwardIt >
+	ForwardIt is_sorted_until( ForwardIt first, ForwardIt last );
 
+**is_partitioned_until**
+	template< class InputIt, class UnaryPredicate >
+	bool is_partitioned( InputIt first, InputIt last, UnaryPredicate p );
 
+**is_heap_until**
+	template< class RandomIt >
+	RandomIt is_heap_until( RandomIt first, RandomIt last );
 
-
-
-
-
-
-
-
-
-
+----------------------------------------------------------------
