@@ -17,6 +17,8 @@ class value_type : private equal_comparable<value_type> {
 };
 ```
 
+# [Use CRTP for polymorphic chaining](https://marcoarena.wordpress.com/2012/04/29/use-crtp-for-polymorphic-chaining/)
+
 
 ## [An Alternative to Name Injection from Templates](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/1995/N0777.pdf)
 
@@ -45,6 +47,7 @@ Counter<T>::count = 0; // this now can go in header
 ```
 
 
+---------------------------------------------------------------
 
 
 
