@@ -72,9 +72,9 @@ CppCon 2018 SPEAKER: Jonathan Boccara
 ## Permutation:	
 	**ROtate** :
 	
-	**shuffle**:
+	__shuffle__:
 	
-	**next_permutation**:
+	###next_permutation:
 	
 	**prev_permutation**:
 
