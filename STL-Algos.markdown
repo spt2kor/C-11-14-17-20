@@ -2,6 +2,17 @@
 https://www.youtube.com/watch?v=bFSnXNIsK4A&t=1040s
 CppCon 2018 SPEAKER: Jonathan Boccara
 
+[The World Map of C++ STL Algorithms](http://www.fluentcpp.com/getTheMap/)
+
+## 7 families of algorithms:
+* the queriers,
+* the permutationers,
+* the algos on sets,
+* the movers,
+* the value modifiers,
+* the structure changers,
+* and the algos of raw memory.
+
 ## HEAP
 * **std::make_heap**
 	template <class RandomAccessIterator, class Compare>
@@ -142,3 +153,42 @@ CppCon 2018 SPEAKER: Jonathan Boccara
 	RandomIt is_heap_until( RandomIt first, RandomIt last );
 
 ----------------------------------------------------------------
+
+## Numeric Algorithms
+count
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
