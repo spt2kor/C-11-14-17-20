@@ -19,6 +19,7 @@ void rotate (ForwardIterator first, ForwardIterator middle, ForwardIterator last
 }
 ```
 
+https://github.com/apple/swift-evolution/blob/master/proposals/0078-rotate-algorithm.md
 
 
 
